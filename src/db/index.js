@@ -15,3 +15,6 @@ import Sequelize from 'sequelize';
 // Create a connection object to SQLite.  Since this will be held in memory,
 // this DB will refresh upon restart
 export default new Sequelize('sqlite://:memory:');
+
+// const path = require('path');
+// export default new Sequelize(`sqlite:///${path.resolve(__dirname, 'data.sqlite')}`);
