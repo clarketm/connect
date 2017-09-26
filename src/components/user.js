@@ -16,7 +16,7 @@ import { graphql } from 'react-apollo';
 /* App */
 
 // GraphQL query
-import sessionQuery from 'src/gql/queries/session.gql';
+import sessionQuery from 'src/gql/queries/session.graphql';
 
 // ----------------------
 

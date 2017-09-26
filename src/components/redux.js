@@ -6,7 +6,7 @@
 // IMPORTS
 
 /* NPM */
-import React from 'react';
+import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 
 // HOC/decorator to listen to Redux store state

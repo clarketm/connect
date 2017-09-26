@@ -27,8 +27,8 @@ import { graphql } from 'react-apollo';
 import { users } from 'src/common';
 
 // Get the login mutation
-import sessionQuery from 'src/gql/queries/session.gql';
-import loginMutation from 'src/gql/mutations/login.gql';
+import sessionQuery from 'src/gql/queries/session.graphql';
+import loginMutation from 'src/gql/mutations/login.graphql';
 
 // Styles
 import css from './login.css';
